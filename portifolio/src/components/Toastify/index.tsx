@@ -18,7 +18,7 @@ export const Toastify = () => {
   return (
     <Container>
       <button onClick={notify}>Greet Rian 👋</button>
-      <ToastContainer />
+      <ToastContainer limit={1} />
     </Container>
   );
 };
