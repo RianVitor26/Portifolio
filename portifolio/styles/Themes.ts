@@ -1,14 +1,27 @@
 export const lightTheme = {
-    body: '#fff',
-    fontColor: '#000'
+    body: 'var(--body-bg-white)',
+    fontColor: 'var(--text-dark)',
+    nav: 'var(--nav-dark)',
+    link: 'var(--link-dark)',
 }
 export const darkTheme = {
-    body: '#000',
-    fontColor: '#fff'
+    body: 'var(--body-bg-dark)',
+    fontColor: 'var(--text-white)',
+    nav: 'var(--nav-white)',
+    link: 'var(--link-white)',
+
 }
 
 import styled from 'styled-components'
 
-export const Container = styled.div`
-color: ${props => props.theme.fontColor}
+export const ThemeContainer = styled.div`
+color: ${props => props.theme.fontColor};
+
+nav{
+background: ${props => props.theme.nav};
+}
+
+a{
+color: ${props => props.theme.link};
+} 
 `
