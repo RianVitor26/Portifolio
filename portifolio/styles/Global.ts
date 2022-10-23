@@ -20,7 +20,7 @@ export const GlobalStyle = createGlobalStyle<themeProps>`
     --body-bg-white: #f5f5f5;
     --body-bg-dark: #000000;
     --nav-dark: #eceff1;
-    --nav-white: #1b1b1b;
+    --nav-white: #0d0d0d;
     --link-dark: #000a12;
     --link-white: #eceff1;
 }

@@ -1,10 +1,11 @@
 import * as C from "./styles";
-import { Navbar } from '../../components/Navbar'
+import { Navbar } from "../../components/Navbar";
+
 export const About = () => {
   return (
     <C.Container>
       <Navbar />
-      About 
+      About
     </C.Container>
   );
 };

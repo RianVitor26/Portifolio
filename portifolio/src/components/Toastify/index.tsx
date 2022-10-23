@@ -1,8 +1,6 @@
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Container } from './styles'
-import { useRef } from 'react'
-
 
 export const Toastify = () =>  {
     const notify = () =>
@@ -17,16 +15,10 @@ export const Toastify = () =>  {
         theme: "dark",
       });
   
-  const toastifyContainer = useRef()
-  const removeToastify = () => {
-    toastifyContainer.current.style.display = 'none'
-  }
 
   return (
-    <Container onClick={removeToastify}>
-      <button ref={toastifyContainer} onClick={notify}>
-        Greet Rian 👋
-      </button>
+    <Container>
+      <button onClick={notify}>Greet Rian 👋</button>
       <ToastContainer />
     </Container>
   );
