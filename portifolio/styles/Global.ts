@@ -23,6 +23,10 @@ export const GlobalStyle = createGlobalStyle<themeProps>`
     --nav-white: #0d0d0d;
     --link-dark: #000a12;
     --link-white: #eceff1;
+    --card-white: #e0e0e0;
+    --card-dark: #0d0d0d;
+
+    --normal-transition: all ease .5s;
 }
 
 html{

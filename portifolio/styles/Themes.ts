@@ -3,12 +3,14 @@ export const lightTheme = {
     fontColor: 'var(--text-dark)',
     nav: 'var(--nav-dark)',
     link: 'var(--link-dark)',
+    card: 'var(--card-white)',
 }
 export const darkTheme = {
     body: 'var(--body-bg-dark)',
     fontColor: 'var(--text-white)',
     nav: 'var(--nav-white)',
     link: 'var(--link-white)',
+    card: 'var(--card-dark)',
 
 }
 
@@ -24,4 +26,6 @@ background: ${props => props.theme.nav};
 a{
 color: ${props => props.theme.link};
 } 
+
+
 `
