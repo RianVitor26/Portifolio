@@ -1,6 +1,7 @@
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Container } from "./styles";
+import { useState } from 'react'
 
 export const Toastify = () => {
   const notify = () =>
@@ -14,10 +15,16 @@ export const Toastify = () => {
       progress: undefined,
       theme: "dark",
     });
+  
+  const [displayToastify, setDisplayToastify] = useState(true)
+
+  const hiddenToastify = () => {
+    setDisplayToastify(false)
+  }
 
   return (
-    <Container>
-      <button onClick={notify}>Greet Rian 👋</button>
+    <Container onClick={hiddenToastify}>
+      {displayToastify ? <button onClick={notify}>Greet Rian 👋</button> : null}
       <ToastContainer limit={1} />
     </Container>
   );
