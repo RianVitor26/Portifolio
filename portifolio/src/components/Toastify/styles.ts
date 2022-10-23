@@ -1,4 +1,17 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const handBounce = keyframes`
+from{
+    transform: rotate(0)
+}
+
+50%{
+    transform: rotate(-30deg);
+}
+90%{
+    transform: rotate(-1deg);
+}
+`
 
 export const Container = styled.div`
 position: absolute;
@@ -16,5 +29,11 @@ button{
      font-weight: 'Roboto';
      color: #996dff;
      font-weight: 700;
+
+     img{
+        width: 2rem;
+        height: 2rem;
+        animation: ${handBounce} .5s ease 2s infinite backwards;
+     }
 }
 `

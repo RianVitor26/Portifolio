@@ -6,6 +6,10 @@ height: 10vh;
 display: flex; 
 justify-content: center;
 align-items: center;
+position: sticky;
+top: 0;
+z-index: 0;
+margin-bottom: 5rem;
 
 svg{
   position: absolute;

@@ -1,11 +1,13 @@
 import * as C from "./styles";
 import { Navbar } from "../../components/Navbar";
+import { Footer } from "../../components/Footer";
 
 export const About = () => {
   return (
-    <C.Container>
+    <>
       <Navbar />
-      About
-    </C.Container>
+      <C.Container>About</C.Container>
+      <Footer />
+    </>
   );
 };

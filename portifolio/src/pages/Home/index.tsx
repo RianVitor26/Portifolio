@@ -1,6 +1,7 @@
 import * as C from "./styles";
 import { Navbar } from "../../components/Navbar";
 import { Toastify } from "../../components/Toastify";
+import { Footer } from "../../components/Footer";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
           </h3>
         </C.Resume>
       </C.Container>
+      <Footer />
     </>
   );
 };

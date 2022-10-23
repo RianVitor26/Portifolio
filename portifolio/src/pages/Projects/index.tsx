@@ -1,6 +1,7 @@
 import * as C from "./styles"
 import { Navbar } from "../../components/Navbar";
 import { Card } from "../../components/Card";
+import { Footer } from "../../components/Footer";
 
 
 export const Projects = () => {
@@ -33,6 +34,7 @@ export const Projects = () => {
           link=""
         />
       </C.Container>
+      <Footer />
     </>
   );
 }

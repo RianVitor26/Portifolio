@@ -34,6 +34,6 @@ html{
 }
 
 body{
-    background: ${props => props.theme.body}
+    background: ${props => props.theme.body};
 }
 `

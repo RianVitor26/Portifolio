@@ -24,7 +24,11 @@ export const Toastify = () => {
 
   return (
     <Container onClick={hiddenToastify}>
-      {displayToastify ? <button onClick={notify}>Greet Rian 👋</button> : null}
+      {displayToastify ? (
+        <button onClick={notify}>
+          Greet Rian <img src="hand.png" alt="hands" />
+        </button>
+      ) : null}
       <ToastContainer limit={1} />
     </Container>
   );
