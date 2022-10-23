@@ -15,14 +15,14 @@ export const GlobalStyle = createGlobalStyle<themeProps>`
 }
 
 :root{
-    --text-dark: black;
-    --text-white: white;
-    --body-bg-white: white;
+    --text-dark: #000a12;
+    --text-white: #eceff1;
+    --body-bg-white: #f5f5f5;
     --body-bg-dark: #000000;
     --nav-dark: #eceff1;
     --nav-white: #1b1b1b;
-    --link-dark: black;
-    --link-white: white;
+    --link-dark: #000a12;
+    --link-white: #eceff1;
 }
 
 html{

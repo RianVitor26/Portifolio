@@ -7,11 +7,28 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+svg{
+  position: absolute;
+  left: 20px;
+  color: #996dff;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+  @media only screen and (min-width: 426px) {
+    display: none;
+  }
+}
+
 ul{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 50%;
+
+     @media only screen and (max-width: 426px) {
+    display: none;
+  }
 }
 
 li{
@@ -31,7 +48,7 @@ a{
           height: .5vh;
           bottom: 0;
           left: 0;
-          background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+          background: #996dff;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           transform: scaleX(0);
