@@ -25,6 +25,8 @@ export const GlobalStyle = createGlobalStyle<themeProps>`
     --link-white: #eceff1;
     --card-white: #e0e0e0;
     --card-dark: #0d0d0d;
+    --menu-white: #e0e0e0;
+    --menu-dark: #000a12;
 
     --normal-transition: all ease .5s;
 }

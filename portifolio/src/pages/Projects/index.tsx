@@ -10,7 +10,7 @@ export const Projects = () => {
       <Navbar />
       <C.Container>
         <Card
-          src="test.png"
+          src="comingsoon.jpg"
           alt=""
           title="Project title"
           stacks="React | JavaScript | Styled-conponents"
@@ -18,7 +18,7 @@ export const Projects = () => {
           link=""
         />
         <Card
-          src="test.png"  
+          src="comingsoon.jpg"
           alt=""
           title="Project title"
           stacks="React | JavaScript | Styled-conponents"
@@ -26,7 +26,7 @@ export const Projects = () => {
           link=""
         />
         <Card
-          src="test.png"
+          src="comingsoon.jpg"
           alt=""
           title="Project title"
           stacks="React | JavaScript | Styled-conponents"

@@ -18,6 +18,7 @@ svg{
   width: 30px;
   height: 30px;
   cursor: pointer;
+  z-index: 1000;
 
   @media only screen and (min-width: 426px) {
     display: none;

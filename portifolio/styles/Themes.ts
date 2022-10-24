@@ -4,6 +4,7 @@ export const lightTheme = {
     nav: 'var(--nav-dark)',
     link: 'var(--link-dark)',
     card: 'var(--card-white)',
+     menu: 'var(--menu-white)',
 }
 export const darkTheme = {
     body: 'var(--body-bg-dark)',
@@ -11,6 +12,7 @@ export const darkTheme = {
     nav: 'var(--nav-white)',
     link: 'var(--link-white)',
     card: 'var(--card-dark)',
+    menu: 'var(--menu-dark)',
 
 }
 
