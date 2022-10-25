@@ -8,6 +8,7 @@ transition: var(--normal-transition);
 cursor: pointer;
 border-radius: 2rem;
 background: ${props => props.theme.card};
+user-select: none;
 
 a{
     width: 100%;
@@ -16,10 +17,6 @@ a{
     :hover{
         color: #996dff;
     }
-}
-
-:hover{
-    transform: translateY(-2rem);
 }
 `
 export const CardImage = styled.div`

@@ -14,9 +14,9 @@ from{
 `
 
 export const Container = styled.div`
-position: absolute;
-bottom: 20px;
-left: 20px;
+position: fixed;
+bottom: 2rem;
+left: 2rem;
 
 
 button{
