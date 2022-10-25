@@ -8,7 +8,7 @@ justify-content: center;
 align-items: center;
 position: sticky;
 top: 0;
-z-index: 1000;
+z-index: 101;
 margin-bottom: 5rem;
 
 svg{

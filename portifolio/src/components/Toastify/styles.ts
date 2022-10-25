@@ -17,6 +17,7 @@ export const Container = styled.div`
 position: fixed;
 bottom: 2rem;
 left: 2rem;
+z-index: 1000;
 
 
 button{

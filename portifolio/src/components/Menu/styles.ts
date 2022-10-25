@@ -10,7 +10,7 @@ background: ${props => props.theme.menu};
 display: flex;
 align-items: center;
 justify-content: center;
-z-index: 2;
+z-index: 100;
 
 @media only screen and (min-width: 427px){
     display: none;
