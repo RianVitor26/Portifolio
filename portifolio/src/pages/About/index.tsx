@@ -10,9 +10,7 @@ import {
 
 export const About = () => {
 
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+  
 
   return (
     <>

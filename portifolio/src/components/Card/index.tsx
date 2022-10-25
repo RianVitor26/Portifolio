@@ -1,4 +1,8 @@
 import * as C from "./styles"
+import "aos/dist/aos.css";
+import Aos from "aos";
+import { useEffect } from "react";
+import { Fade } from "@mui/material";
 
 type cardProps = {
   src: string,
@@ -6,12 +10,18 @@ type cardProps = {
   title: string,
   stacks: string,
   desc: string,
-  link: string
+  link: string,
 }
 
 export const Card = ({ src, alt, title, stacks, desc, link}: cardProps) => {
+  
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
+
   return (
-    <C.Card>
+    <C.Card data-aos="fade-right">
       <C.CardImage>
         <img src={src} alt={alt} />
       </C.CardImage>

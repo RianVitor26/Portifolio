@@ -5,6 +5,7 @@ import { Footer } from "../../components/Footer";
 
 
 export const Projects = () => {
+
   return (
     <>
       <Navbar />
