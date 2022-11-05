@@ -27,7 +27,6 @@ export const GlobalStyle = createGlobalStyle<themeProps>`
     --card-dark: #0d0d0d;
     --menu-white: #e0e0e0;
     --menu-dark: #000a12;
-
     --normal-transition: all ease .5s;
 }
 

@@ -24,7 +24,8 @@ export const Home = () => {
         <C.Resume data-aos="fade-up">
           <h3>
             Rian is a technology lover, he is a front-end developer with a foot
-            in the <span>backend</span>. Focused on the best web technologies
+            in the <span>backend</span>. Focused on the best technologies using
+            JavaScript
           </h3>
         </C.Resume>
       </C.Container>

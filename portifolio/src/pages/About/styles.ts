@@ -39,10 +39,19 @@ p{
         font-weight: 700;
     }
 
-    a{
-            color: slateblue;
-        }
 }
+
+a{
+            padding: 5px 5rem;
+            background: #996dff;
+            font-size: clamp(14px, 1.5rem, 100px);
+            border-radius: .5rem;
+            text-decoration: none;
+
+            svg{
+                margin-left: 1rem;
+            }
+        }
 `
 export const Technologies = styled.div`
 width: 50rem;
