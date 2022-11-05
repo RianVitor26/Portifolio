@@ -19,7 +19,7 @@ flex-wrap: wrap;
 padding: 2rem;
 
 p, span{
-    font-size: clamp(12px, 1.5rem, 100px);
+    font-size: clamp(18px, 1.5rem, 100px);
 }
 
 img{

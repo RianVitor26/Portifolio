@@ -12,7 +12,7 @@ user-select: none;
 
 a{
     width: 100%;
-    font-size: clamp(14px, 1.8rem, 100px);
+    font-size: clamp(18px, 1.8rem, 100px);
 
     :hover{
         color: #996dff;
@@ -49,6 +49,6 @@ font-size: clamp(12px, 1.5rem, 100px);
 
 p{
 text-align: justify;
-font-size: clamp(10px, 1.4rem, 100px);
+font-size: clamp(12px, 1.4rem, 100px);
 }
 `

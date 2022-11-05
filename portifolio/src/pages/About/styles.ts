@@ -31,8 +31,8 @@ h1{
 }
 
 p{
-    font-size: clamp(14px, 1.5rem, 100px);
-    padding-bottom: 1rem;
+    font-size: clamp(18px, 1.5rem, 100px);
+    padding-bottom: 2rem;
 
     span{
         color: #996dff;
@@ -42,7 +42,7 @@ p{
 }
 
 a{
-            padding: 5px 5rem;
+            padding: 8px 5rem;
             background: #996dff;
             font-size: clamp(14px, 1.5rem, 100px);
             border-radius: .5rem;

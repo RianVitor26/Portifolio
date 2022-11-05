@@ -44,7 +44,7 @@ a{
     text-decoration: none;
     position: relative;
     padding-bottom: 1vh;
-    font-size: clamp(14px, 1.6rem, 100px);
+    font-size: clamp(18px, 1.6rem, 100px);
 
     ::before {
           content: "";
