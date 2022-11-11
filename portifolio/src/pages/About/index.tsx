@@ -19,35 +19,35 @@ export const About = () => {
       <Navbar />
       <C.Container>
         <C.About>
-          <h1 data-aos="fade-up" data-aos-duration="500">
+          <h1 data-aos="fade-in" data-aos-duration="500">
             Resume
           </h1>
-          <p data-aos="fade-up" data-aos-duration="1500">
+          <p data-aos="fade-in" data-aos-duration="1500">
             I'm a developer with more proficiency in Front-end. I like to learn
             the best technologies to create amazing websites. Currently studying
             <span> React, React Native and Node</span>. In order to become a
             <span> JavaScript developer</span> with knowledge in{" "}
             <span> web Full-Stack and Mobile development</span>.
           </p>
-          <p data-aos="fade-up" data-aos-duration="2000">
+          <p data-aos="fade-in" data-aos-duration="2000">
             <span>I live in: </span>
             Serra, ES.
           </p>
-          <p data-aos="fade-up" data-aos-duration="2500">
+          <p data-aos="fade-in" data-aos-duration="2500">
             <span>I study: </span>
             Software Engineering at Unisales in Vitória, ES.
           </p>
-          <p data-aos="fade-up" data-aos-duration="3000">
+          <p data-aos="fade-in" data-aos-duration="3000">
             <span>I am studying: </span>
             React and React Native ecosystem, A little bit of the Node ecosystem
             and English daily.
           </p>
-          <p data-aos="fade-up" data-aos-duration="3500">
+          <p data-aos="fade-in" data-aos-duration="3500">
             <span>I look for: </span>
             An internship or a Jr position.
           </p>
           <a
-            data-aos="fade-left"
+            data-aos="fade-in"
             data-aos-duration="4000"
             target="blank"
             href="curriculum.pdf"

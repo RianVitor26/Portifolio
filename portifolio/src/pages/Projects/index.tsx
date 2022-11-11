@@ -11,12 +11,12 @@ export const Projects = () => {
       <Navbar />
       <C.Container>
         <Card
-          src="comingsoon.jpg"
-          alt=""
-          title="Project title"
-          stacks="React | JavaScript | Styled-conponents"
-          desc=" Lorem ipsum, dolor sit amet consectetur adipisicing."
-          link=""
+          src="github.png"
+          alt="Github image"
+          title="Search repos"
+          stacks="React | TypeScript | Styled-components"
+          desc="Consuming the github API and developing a search filter for repositories"
+          link="https://myrepos.vercel.app/"
         />
         <Card
           src="comingsoon.jpg"
