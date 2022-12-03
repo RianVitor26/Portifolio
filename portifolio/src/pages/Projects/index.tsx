@@ -13,10 +13,10 @@ export const Projects = () => {
         <Card
           src="github.png"
           alt="Github image"
-          title="Search repos"
-          stacks="React | TypeScript | Styled-components"
+          title="GB-Repos-R"
+          stacks="React | TypeScript | Styled-components | API"
           desc="Consuming the github API and developing a search filter for repositories"
-          link="https://myrepos.vercel.app/"
+          link="https://gbreposrv.vercel.app/"
         />
         <Card
           src="comingsoon.jpg"

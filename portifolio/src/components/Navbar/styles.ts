@@ -52,6 +52,7 @@ a{
           width: 100%;
           height: .5vh;
           bottom: 0;
+          border-radius: 5px;
           left: 0;
           background: #996dff;
           visibility: hidden;

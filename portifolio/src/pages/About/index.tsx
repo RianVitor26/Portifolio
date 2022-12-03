@@ -80,14 +80,6 @@ export const About = () => {
             <h2>React</h2>
           </C.Stack>
           <C.Stack data-aos="fade-up">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
-            <h2>Redux</h2>
-          </C.Stack>
-          <C.Stack data-aos="fade-up">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
-            <h2>Jest</h2>
-          </C.Stack>
-          <C.Stack data-aos="fade-up">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
             <h2>Sass</h2>
           </C.Stack>

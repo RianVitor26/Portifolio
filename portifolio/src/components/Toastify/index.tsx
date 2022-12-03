@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export const Toastify = () => {
   const notify = () =>
-    toast("What's Up ! Welcome to my portifolio 🚀", {
+    toast("What's Up ! 🚀", {
       position: "top-left",
       autoClose: 3000,
       hideProgressBar: false,

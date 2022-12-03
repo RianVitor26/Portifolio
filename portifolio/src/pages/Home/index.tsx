@@ -20,12 +20,12 @@ export const Home = () => {
         <Toastify />
         <C.Perfil data-aos="zoom-in"></C.Perfil>
         <h1 data-aos="fade-up-right">Rian Vitor</h1>
-        <h2 data-aos="fade-up-right">Front-end Developer 💜</h2>
+        <h2 data-aos="fade-up-right">Developer 💜</h2>
         <C.Resume data-aos="fade-up">
           <h3>
-            Rian is a technology lover, he is a front-end developer with a foot
-            in the <span>backend</span>. Focused on the best technologies using
-            JavaScript
+            Rian is a technology lover, he is a <span>front-end developer </span>
+            with a foot in the <span>back-end</span>. Focused on the best
+            technologies using <span>JavaScript</span>
           </h3>
         </C.Resume>
       </C.Container>
